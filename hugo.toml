@@ -1,0 +1,89 @@
+baseURL = "http://localhost:1313/"
+title = "Mst. Hossaina Kabir"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+[params]
+    author = "Mst. Hossaina Kabir"
+    description = "MSc Student in CSE | Data Science | Machine Learning | Artificial Intelligence"
+    keywords = ["Mst. Hossaina Kabir", "Data Science", "Machine Learning", "Artificial Intelligence", "Daffodil International University"]
+    defaultTheme = "auto"
+    disableThemeToggle = false
+
+    ShowReadingTime = false
+    ShowShareButtons = false
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    ShowWordCount = false
+
+    [params.profileMode]
+        enabled = true
+        title = "Mst. Hossaina Kabir"
+        subtitle = "MSc Student in CSE — Data Science | Machine Learning | Artificial Intelligence"
+        imageUrl = "/images/profile.jpg"
+        imageTitle = "Mst. Hossaina Kabir"
+        imageWidth = 180
+        imageHeight = 180
+
+        [[params.profileMode.buttons]]
+            name = "About Me"
+            url = "/about/"
+
+        [[params.profileMode.buttons]]
+            name = "Research"
+            url = "/research/"
+
+        [[params.profileMode.buttons]]
+            name = "Projects"
+            url = "/projects/"
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/hossaina002"
+
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/mst-hossaina-kabir"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[[menu.main]]
+    name = "Education"
+    url = "/education/"
+    weight = 20
+
+[[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 30
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 40
+
+[[menu.main]]
+    name = "Skills"
+    url = "/skills/"
+    weight = 50
+
+[[menu.main]]
+    name = "Certifications"
+    url = "/certifications/"
+    weight = 60
+
+[[menu.main]]
+    name = "Papers"
+    url = "/papers/"
+    weight = 70
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 80
+   
